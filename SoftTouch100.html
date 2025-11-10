@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منيو منتجات الكريمات الطبيعية</title>
+  <style>
+    :root {
+      --main-color: #f7a6c5; /* زهري ناعم */
+      --accent-color: #fff7fa;
+      --text-color: #222;
+      --muted: #666;
+      --radius: 14px;
+      font-family: 'Cairo', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #fff8fb, #ffffff);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--main-color);
+      padding: 25px 10%;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: #ffeaf3;
+      font-size: 16px;
+    }
+
+    .menu-container {
+      max-width: 1100px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      padding: 0 5%;
+    }
+
+    .card {
+      background: var(--accent-color);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 26px rgba(0,0,0,0.12);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 18px;
+    }
+
+    .card-content h2 {
+      font-size: 20px;
+      color: var(--text-color);
+      margin-bottom: 10px;
+    }
+
+    .card-content p {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: var(--main-color);
+      font-size: 16px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--main-color);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+
+    .btn:hover {
+      background: #f38ab3;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: var(--main-color);
+      color: #fff;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Soft Touch</h1>
+    <p>منتجات طبيعية </p>
+	<p>Natural Body Care</p>
+  </header>
+
+  <main>
+    <div class="menu-container">
+      <div class="card">
+        <img src="https://i.postimg.cc/J0wKx6zK/282d63a7b4f74f6f842c375d33e4ddfd.jpg" alt="كريم الدراق">
+        <div class="card-content">
+          <h2>كريم الدراق</h2>
+          <p>مرطب طبيعي برائحة الدراق المنعشة يغذي البشرة ويمنحها نعومة وإشراق.</p>
+          <div class="price">5.00 JOD</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.postimg.cc/nLRP4GmQ/7a6a03e148334d528256b77c6df2741e.jpg" alt="كريم البابايا">
+        <div class="card-content">
+          <h2>كريم البابايا</h2>
+          <p>كريم مقشر لطيف يحتوي على مستخلص البابايا لتجديد خلايا البشرة ومنحها نضارة.</p>
+          <div class="price">5.00 JOD</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.postimg.cc/LsNTd44W/IMG-20251110-WA0012.jpg" alt="كريم الليمون">
+        <div class="card-content">
+          <h2>كريم الليمون</h2>
+          <p>يمنح البشرة إشراقة طبيعية مع لمسة منعشة من رائحة الليمون، مثالي للبشرة الباهتة.</p>
+          <div class="price">5.00 JOD</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.postimg.cc/0jdj3jPC/IMG-20251110-WA0017.jpg" alt="كريم الكرز">
+        <div class="card-content">
+          <h2>كريم الكرز</h2>
+          <p>غني بمضادات الأكسدة ومغذيات الكرز الطبيعية للحفاظ على شباب البشرة.</p>
+          <div class="price">5.00 JOD</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.postimg.cc/13F2ZqLS/bef9f1a531c347559aafffd84e9ea827.jpg" alt="كريم الفانيلا">
+
+        <div class="card-content">
+          <h2>كريم الفانيلا</h2>
+          <p>كريم عطري ناعم برائحة الفانيلا، يمنح بشرتك ترطيباً عميقاً وإحساساً بالراحة.</p>
+          <div class="price">5.00 JOD</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.postimg.cc/rpJh8Cj7/IMG-20251110-WA0015.jpg" alt="كريم الأقدام">
+        <div class="card-content">
+          <h2>كريم الأقدام</h2>
+          <p>مصمم خصيصًا لتنعيم الأقدام الجافة والتشققات، يمنحك إحساسًا بالانتعاش الدائم.</p>
+          <div class="price">3.00 JOD</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 جميع الحقوق محفوظة | Soft Touch
+</body>
+</html>
